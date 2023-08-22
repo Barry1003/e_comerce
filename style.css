@@ -172,12 +172,14 @@
 
 .land .land-content .buttons{
    display: flex;
-   background: transparent;
-   border: 0;
    width: 100%;
 }
+button{
+   background: transparent;
+   border: 0;
+}
 
-.buttons .btn-pry{
+.btn-pry{
    background: var(--text-color);
    display: flex;
    justify-content: center;
@@ -294,7 +296,7 @@
       font-weight: 300;
       text-transform: capitalize;
 }
-.Ads_content div .btn-pry button{
+.Ads_content div .btn-pry{
    margin-bottom: 1.5rem;
 }
 
